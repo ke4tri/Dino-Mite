@@ -1,9 +1,21 @@
 body {
     background-color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
 } 
+
+
+
+.side-crop { max-width: 752.5px; overflow: hidden; }
+.side-crop img { max-width: initial; /* Maybe optional. See note below */ }
+
 
 footer {
     display:flex;
     justify-content: center;
+}
 
+p {
+    color:wheat;
+    font-size: 30px;
+    margin: -200px 10px 10px 10px;
 }
