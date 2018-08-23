@@ -1,21 +1,41 @@
 body {
     background-color: antiquewhite;
     font-family: 'Oswald', sans-serif;
+    margin:0 0 0 0;
 } 
 
-
-
-.side-crop { max-width: 752.5px; overflow: hidden; }
-.side-crop img { max-width: initial; /* Maybe optional. See note below */ }
-
-
-footer {
-    display:flex;
-    justify-content: center;
+.row {
+    display: flex;
+    max-width: 1503px;
 }
 
-p {
-    color:wheat;
-    font-size: 30px;
-    margin: -200px 10px 10px 10px;
+figure {
+    display: flex;
+    flex-direction:column;
+    margin: 0 0 0 0;
+}
+
+.me {
+    max-width: 799px;
+    max-height: 859px;
+   
+}
+
+.me_para {
+   
+}
+
+
+footer{
+
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        max-width: 1503px;
+        flex-wrap: wrap;
+    }
+
+ 
 }
