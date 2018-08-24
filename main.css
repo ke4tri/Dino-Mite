@@ -65,19 +65,34 @@ h1 {
     left:20%;
     top:90%; */
 }
+.nss1 {
+    text-align: center;
+}
+.nss {
+    -webkit-filter:sepia(1);
+    filter:sepia(1);
+    margin-top: -30px;
+    box-sizing: content-box;
+    height: 50px;
+    width: auto;
+}
 
 @media only screen and (max-width: 653px) {
 
     .me_para {
+        margin-top: 35px;
         position: absolute;
         right: 50%;
         left:5% ;
         top: 100%;
         order: 2;
         color: black;
+       
+        
     }
     
     .dino_para {
+        margin-top:35px;
         position:absolute;
         top: 100%;
         right: 5%;
@@ -99,5 +114,20 @@ h1 {
          top:70%;
          
      }
-
+     .nss1 {
+        text-align: center;
+        
+    }
+    .nss {
+        -webkit-filter:sepia(1);
+        filter:sepia(1);
+        margin-top: -5px;
+        box-sizing: content-box;
+        height: 50px;
+        width: auto;
+        
+    }
+     
 }
+
+
