@@ -54,12 +54,17 @@ body {
 }
 
 
-/* .h1 {
-   display: inline-flex;
-   justify-content: center;
-   
-    
-} */
+footer {
+   text-align: center;
+   align-content: flex-end;
+}
+
+h1 {
+    /* position: absolute;
+    right: 20%;
+    left:20%;
+    top:90%; */
+}
 
 @media only screen and (max-width: 425px) {
 
@@ -70,7 +75,6 @@ body {
         top: 100%;
         order: 2;
         color: black;
-      
     }
     
     .dino_para {
@@ -78,7 +82,19 @@ body {
         top: 100%;
         right: 5%;
         left: 55%;
-        order:3 ;
-         
+        order:3 ;  
     }
+
+    footer {
+        text-align: center;
+        /* align-content: flex-end; */
+     }
+     
+     h1 {
+         position: absolute;
+         right: 20%;
+         left:20%;
+         top:60%;
+     }
+
 }
