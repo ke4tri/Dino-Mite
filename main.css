@@ -1,41 +1,57 @@
 body {
+    /* position: relative; */
     background-color: antiquewhite;
     font-family: 'Oswald', sans-serif;
     margin:0 0 0 0;
+    
 } 
 
 .row {
-    display: flex;
-    max-width: 1503px;
+    
+    
 }
 
-figure {
-    display: flex;
-    flex-direction:column;
-    margin: 0 0 0 0;
+.imgs {
+    display:flex;
+    justify-content: center;
+    
 }
 
-.me {
-    max-width: 799px;
-    max-height: 859px;
-   
+.img_me {
+  width: 50%;
+  align-self: center;
+  order: 1;
+}
+
+
+.img_dino {
+    width: 50%;
+    align-self: center;
+    order: 4;
+    z-index: -1;
 }
 
 .me_para {
+    order: 2;
+    margin-left: -100px;
+    
+}
+
+.dino_para {
+    order:3 ;
+    margin-right: -100px;
+    
+    
+    
+}
+
+
+.h1 {
    
+    
 }
 
+@media only screen and (max-width: 768px) {
 
-footer{
 
-}
-
-@media only screen and (max-width: 600px) {
-    .row {
-        display: flex;
-        max-width: 1503px;
-        flex-wrap: wrap;
-    }
-
- 
 }
